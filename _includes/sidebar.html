@@ -1,11 +1,4 @@
-﻿<div id="sidebar" class="sidebar">
-<ul>
-<p></p>
-<p></p>
-</ul>
-</div>
-
-{% if page.categories contains "footmark" %}
+﻿{% if page.categories contains "footmark" %}
 
 <div id="sidebar" class="sidebar">
   <h4>Footmark</h4>
@@ -40,7 +33,7 @@
 {% elsif page.categories contains "life" %}
 
 <div id="sidebar" class="sidebar">
-  <h4>生活小记</h4>
+  <h4>生活杂记</h4>
   <ul>
     {% assign pages_list = site.categories.life %}
     {% include custom/pages_list_reversed %}

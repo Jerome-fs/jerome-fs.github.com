@@ -1,15 +1,15 @@
 
-http://fordreams.github.com/archive.html
-http://fordreams.github.com/categories.html
-http://fordreams.github.com/footmark/index.html
-http://fordreams.github.com/index.html
-http://fordreams.github.com/life/index.html
-http://fordreams.github.com/research/index.html
-http://fordreams.github.com/study/index.html
-http://fordreams.github.com/research/index.md_extend
-http://fordreams.github.com/pages.html
-http://fordreams.github.com/post_all.html
-http://fordreams.github.com/sitemap.txt
-http://fordreams.github.com/tags.html
+http://jerome-fs.github.io/archive.html
+http://jerome-fs.github.io/categories.html
+http://jerome-fs.github.io/footmark/index.html
+http://jerome-fs.github.io/index.html
+http://jerome-fs.github.io/life/index.html
+http://jerome-fs.github.io/research/index.html
+http://jerome-fs.github.io/study/index.html
+http://jerome-fs.github.io/research/index.md_extend
+http://jerome-fs.github.io/pages.html
+http://jerome-fs.github.io/post_all.html
+http://jerome-fs.github.io/sitemap.txt
+http://jerome-fs.github.io/tags.html
 
-http://fordreams.github.com/study/linux-startup-process.html
+http://jerome-fs.github.io/study/linux-startup-process.html
