@@ -20,6 +20,10 @@ topbar:
   -
     url : '/life/index.html'
     title : '生活杂记'
+  -
+    url : '/tags.html'
+    title : '标签'
+
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #

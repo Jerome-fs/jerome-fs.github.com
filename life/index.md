@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "生话思考"
+title: "生活思考"
 ---
 {% include JB/setup %}
 
