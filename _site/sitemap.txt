@@ -1,0 +1,13 @@
+
+http://fordreams.github.com/archive.html
+http://fordreams.github.com/categories.html
+http://fordreams.github.com/index.html
+http://fordreams.github.com/footmark/index.html
+http://fordreams.github.com/life/index.html
+http://fordreams.github.com/research/index.html
+http://fordreams.github.com/study/index.html
+http://fordreams.github.com/mix/index.html
+http://fordreams.github.com/pages.html
+http://fordreams.github.com/post_all.html
+http://fordreams.github.com/sitemap.txt
+http://fordreams.github.com/tags.html
