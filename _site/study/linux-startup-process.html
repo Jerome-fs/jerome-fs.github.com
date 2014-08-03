@@ -4,10 +4,11 @@
   <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>首页</title>
-    
+    <title>linux启动过程</title>
+    <meta name="description" content="本文主要记录linux系统的启动过程。
+">
     <meta name="author" content="jerome-fs">
-    <meta name="keywords" content="风之一角,jerome-fs,首页">
+    <meta name="keywords" content="风之一角,jerome-fs,linux启动过程,study,linux">
     <meta property="wb:webmaster" content="45f4c044418008e7" />
     <meta name="chinaz-site-verification" content="1a7852f9-b42f-481f-bd38-1b9e92a55496" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -80,61 +81,39 @@
 
     <div id="main" class="container" style="position: relative;>
       
+<div class="row">
+  <div class="span9" style="width: 85%; margin-left: 90px;">
+    <div class="content post">
+      <h1 class="title">linux启动过程</h1>
+      本文主要记录linux系统的启动过程。
 
-
-<div class="row" style="margin-bottom:20px;">
-  <div style="width:100%">
-    <h3 style="margin-bottom:5px; margin-left:20px; color:#333333;">每一天都是全新的。</h3>
-    <h6 align="right" style="font-size:12px; margin-right:8px">喜欢我或者我的博客，可以把它加入你的<a href="javascript:void(0)" onclick="window.external.AddFavorite(location.href, document.title)">收藏夹</a></h6>
-  </div>
-
-
-<article>
-
-  
-  <section class="post type-post status-publish format-standard hentry">
-    <div class="title">
-      <h2><a href="/study/linux-startup-process.html">linux启动过程</a></h2>
-      <small>
-        <date class="date-pub" title="2012-05-03T00:00:00-07:00" datetime="2012-05-03T00:00:00-07:00" pubdate>
-          <span class="month">May</span>
-          <span class="day">03</span>
-          <span class="year">2012</span>
-        </date>, 
-                
-        
-           
-            <a href="/categories.html#study-ref" rel="category tag">study</a>
-          
-        
-      </small>
-    </div>
-    <div class="entry">
       
 
-    </div>
-    <div class="post-meta">
-      标签：
-      
-      
-
-
-  
-     
-      <li><a href="/tags.html#linux-ref">linux <span>1</span></a></li>
     
-  
-
-
-
-      <div class="clear"></div>
     </div>
-  </section>
+    <hr>
+    
 
-<nav class="navigation">
-  <a href="/archive.html">More...</a>
-</nav>
-</article>
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_developer = 1;
+    var disqus_shortname = 'jeromefs'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
 
       <hr>
       <footer class="footer" style="text-align:center; margin:40px 0">
@@ -147,6 +126,23 @@
     </div> <!-- /container -->
     
     ﻿
+
+<div id="sidebar" class="sidebar">
+  <h4>学习笔记</h4>
+  <ul>
+    
+    
+
+
+  
+
+
+
+  </ul>
+
+</div>
+
+
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/assets/themes/twitter2/js/jquery.min.js"><\/script>')</script>
@@ -155,8 +151,10 @@
       $(function(){
 	 
       
-        Tabs.init("#tab-list", "#tab-content-wrapper");
-        //Pc.init();
+		var i=1;
+		$("h2").each(function(){$(this).attr("id",(i++)+"_"+$(this).text());});
+		//$("h2").attr("id", function(){ return "h2_"(i++)+"_"+this.title });
+        Toc.init('#sidebar', '#main');
       
 	  })
     </script>

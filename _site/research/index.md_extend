@@ -4,10 +4,10 @@
   <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>首页</title>
+    <title>技术研究</title>
     
     <meta name="author" content="jerome-fs">
-    <meta name="keywords" content="风之一角,jerome-fs,首页">
+    <meta name="keywords" content="风之一角,jerome-fs,技术研究">
     <meta property="wb:webmaster" content="45f4c044418008e7" />
     <meta name="chinaz-site-verification" content="1a7852f9-b42f-481f-bd38-1b9e92a55496" />
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -80,61 +80,40 @@
 
     <div id="main" class="container" style="position: relative;>
       
+<div class="row">
+  <div class="span12">
+    <div class="content splash">
+      <h1 class="title">技术研究</h1>
+      
+
+## 1 - linux
+
+<ul class="thumbnails">
+  
+  
+  
 
 
-<div class="row" style="margin-bottom:20px;">
-  <div style="width:100%">
-    <h3 style="margin-bottom:5px; margin-left:20px; color:#333333;">每一天都是全新的。</h3>
-    <h6 align="right" style="font-size:12px; margin-right:8px">喜欢我或者我的博客，可以把它加入你的<a href="javascript:void(0)" onclick="window.external.AddFavorite(location.href, document.title)">收藏夹</a></h6>
+
+
+</ul>
+
+##2 - network 
+
+<ul class="thumbnails">
+  
+  
+  
+
+
+
+
+</ul>
+
+    </div>  
   </div>
+</div>
 
-
-<article>
-
-  
-  <section class="post type-post status-publish format-standard hentry">
-    <div class="title">
-      <h2><a href="/study/linux-startup-process.html">linux启动过程</a></h2>
-      <small>
-        <date class="date-pub" title="2012-05-03T00:00:00-07:00" datetime="2012-05-03T00:00:00-07:00" pubdate>
-          <span class="month">May</span>
-          <span class="day">03</span>
-          <span class="year">2012</span>
-        </date>, 
-                
-        
-           
-            <a href="/categories.html#study-ref" rel="category tag">study</a>
-          
-        
-      </small>
-    </div>
-    <div class="entry">
-      
-
-    </div>
-    <div class="post-meta">
-      标签：
-      
-      
-
-
-  
-     
-      <li><a href="/tags.html#linux-ref">linux <span>1</span></a></li>
-    
-  
-
-
-
-      <div class="clear"></div>
-    </div>
-  </section>
-
-<nav class="navigation">
-  <a href="/archive.html">More...</a>
-</nav>
-</article>
 
       <hr>
       <footer class="footer" style="text-align:center; margin:40px 0">
@@ -155,8 +134,10 @@
       $(function(){
 	 
       
-        Tabs.init("#tab-list", "#tab-content-wrapper");
-        //Pc.init();
+		var i=1;
+		$("h2").each(function(){$(this).attr("id",(i++)+"_"+$(this).text());});
+		//$("h2").attr("id", function(){ return "h2_"(i++)+"_"+this.title });
+        Toc.init('#sidebar', '#main');
       
 	  })
     </script>
