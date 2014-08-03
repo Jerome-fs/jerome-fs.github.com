@@ -1,4 +1,11 @@
-﻿{% if page.categories contains "footmark" %}
+﻿<div id="sidebar" class="sidebar">
+<ul>
+<p></p>
+<p></p>
+</ul>
+</div>
+
+{% if page.categories contains "footmark" %}
 
 <div id="sidebar" class="sidebar">
   <h4>Footmark</h4>
@@ -14,7 +21,7 @@
 <div id="sidebar" class="sidebar">
   <h4>学习历程</h4>
   <ul>
-    {% assign pages_list = site.tags.jekyll %}
+    {% assign pages_list = site.categories.study %}
     {% include custom/pages_list_reversed %}
   </ul>
 
