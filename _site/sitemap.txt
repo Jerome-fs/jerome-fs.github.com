@@ -13,3 +13,4 @@ http://jerome-fs.github.io/sitemap.txt
 http://jerome-fs.github.io/tags.html
 
 http://jerome-fs.github.io/study/linux-startup-process.html
+http://jerome-fs.github.io/study/linux-startup-process.html
